@@ -1,0 +1,70 @@
+@import "../../varaibles";
+
+.card {
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 4px gray;
+  position: relative;
+}
+
+.card__content {
+  padding: 10px;
+}
+
+img {
+  object-fit: contain;
+  width: 90%;
+  overflow: hidden;
+}
+
+i {
+  color: #fff;
+  font-size: 30px;
+  margin: 5px;
+  text-align: center;
+}
+
+.tags {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+
+a {
+  display: flex;
+  line-height: 25px;
+  align-items: center;
+  width: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+p {
+  text-align: left;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.link {
+  background-color: $primary-color;
+  width: 100px;
+  border-radius: 8px;
+  justify-content: center;
+}

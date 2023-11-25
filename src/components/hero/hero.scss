@@ -1,0 +1,42 @@
+@import "../../varaibles";
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66%;
+  gap:100px;
+  margin-top: 30px;
+}
+
+.hero ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social {
+  width: 30px;
+  height: 30px;
+  &:hover {
+    filter: drop-shadow(0 0 8px $primary-color);
+    cursor: pointer;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight:900 ;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 10px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  width: 450px;
+}

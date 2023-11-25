@@ -1,0 +1,138 @@
+@import "../../varaibles";
+
+
+#background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  align-self: center;
+  margin: 150px 0;
+}
+
+.background__container {
+  width: 100%;
+}
+
+.background__tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.background__button {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: gray;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.background__button:hover {
+  color: black;
+}
+
+.background__icon {
+  font-size: 1.8rem;
+  margin-right: 0.25rem;
+}
+
+.background__active {
+  color: $primary-color;
+}
+
+.background__active:hover {
+  color: hsl(	89, 100%, 60%);
+}
+
+.background__sections {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  justify-content: center;
+  width: 100%;
+}
+
+.background__content {
+  display: none;
+  align-items: center;
+  width: 100%;
+}
+
+.background__content-active {
+  display: block;
+  align-items: center;
+  width: 100%;
+}
+
+.background__data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.background__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.background__subtitle {
+  display: inline-block;
+  font-size: 0.813rem;
+  margin-bottom: 0.5rem;
+}
+
+.background__calendar {
+  font-size: 0.813rem;
+}
+
+.background__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: $primary-color;
+  border-radius: 50%;
+}
+
+.background__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: $primary-color;
+  transform: translate(6px, -7px);
+}
+
+/* BREAKPOINTS */
+/* For large devices  */
+@media screen and (max-width: 992px) {
+  .background__container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* For medium devices  */
+@media screen and (max-width: 768px) {
+  .background__container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+}
+@media screen and (max-width: 576px) {
+  .background__sections {
+    grid-template-columns: initial;
+  }
+
+  .background__button {
+    margin: 0 0.75rem;
+  }
+}
+
+/* For small devices  */
+@media screen and (max-width: 350px) {
+  .background__data {
+    gap: 0.5rem;
+  }
+}
