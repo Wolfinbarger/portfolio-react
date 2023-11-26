@@ -1,20 +1,17 @@
 import "./card.scss";
 
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faHtml5 } from "@fortawesome/free-brands-svg-icons";
-import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import {
+  faGithub,
+  faHtml5,
+  IconName,
+} from "@fortawesome/free-brands-svg-icons";
 
 export type ArrayType = string[];
 
 export default function Card(work) {
-  const tags: ArrayType = [];
-
-  work.value.tags.forEach((tag: string) => {
-    tags.push(<i className={tag}></i>);
-  });
-
-  console.log(tags);
   return (
     <div className="card">
       <h3>{work.value.title}</h3>
@@ -22,10 +19,8 @@ export default function Card(work) {
       <div className="card__content">
         <p>{work.value.description}</p>
         <div className="tags" key={work.value.id}>
-          {work.value.tags.forEach((tag) => {
-            {
-              tag;
-            }
+          {console.log(work.value.tags)}
+          {work.value.tags.forEach((tag: IconName) => {
             console.log(tag);
           })}
         </div>
