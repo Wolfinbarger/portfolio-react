@@ -9,7 +9,7 @@ export default function Works() {
 
       <div className="works__content">
         {projectsData.map((work) => (
-          <Card key={work.id} value={work} />
+          <Card key={work.id} item={work} />
         ))}
       </div>
     </section>

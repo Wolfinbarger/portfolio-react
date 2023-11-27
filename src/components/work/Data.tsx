@@ -1,6 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
-
 export const projectsData = [
   {
     id: 4,
@@ -11,11 +8,11 @@ export const projectsData = [
     description:
       "Japanese sushi restaurant website. It displays foods that is provided at location along with description and pricing.",
     source: "https://github.com/DanielBScharf/word_quest",
-    tags: [
-      // "devicon-html5-plain",
-      // "devicon-css3-plain",
-      // "devicon-javascript-plain",
-    ],
+    // tags: [
+    //   "devicon-html5-plain",
+    //   "devicon-css3-plain",
+    //   "devicon-javascript-plain",
+    // ],
   },
   {
     id: 3,
@@ -26,14 +23,14 @@ export const projectsData = [
     description:
       "An interactive English learning web application. In which a person will set out on a quest to improve their language ability while leveling up their character.",
     source: "https://github.com/DanielBScharf/word_quest",
-    tags: [
-      "faHtml5",
-      // "devicon-sass-original",
-      // "devicon-javascript-plain",
-      // "devicon-ruby-plain",
-      // "devicon-rails-plain",
-      // "devicon-postgresql-plain",
-    ],
+    // tags: [
+    //   "faHtml5",
+    //   "devicon-sass-original",
+    //   "devicon-javascript-plain",
+    //   "devicon-ruby-plain",
+    //   "devicon-rails-plain",
+    //   "devicon-postgresql-plain",
+    // ],
   },
   {
     id: 2,
@@ -44,14 +41,14 @@ export const projectsData = [
     description:
       "Spaceship rental website. In which a user can rent or rent out a spaceship that for a set period of time.",
     source: "https://github.com/Wolfinbarger/UsedShips",
-    tags: [
-      // "faHtml5",
-      // "devicon-sass-original",
-      // "devicon-javascript-plain",
-      // "devicon-ruby-plain",
-      // "devicon-rails-plain",
-      // "devicon-postgresql-plain",
-    ],
+    // tags: [
+    //   "faHtml5",
+    //   "devicon-sass-original",
+    //   "devicon-javascript-plain",
+    //   "devicon-ruby-plain",
+    //   "devicon-rails-plain",
+    //   "devicon-postgresql-plain",
+    // ],
   },
   {
     id: 1,
@@ -62,14 +59,14 @@ export const projectsData = [
     description:
       "Simple website in which a user can access to create watch list from various movies.",
     source: "https://github.com/Wolfinbarger/rails-watch-list#-watchlist",
-    tags: [
-      // "devicon-html5-plain colored",
-      // "devicon-sass-original",
-      // "devicon-bootstrap-plain",
-      // "devicon-javascript-plain",
-      // "devicon-ruby-plain",
-      // "devicon-rails-plain",
-      // "devicon-postgresql-plain",
-    ],
+    // tags: [
+    //   "devicon-html5-plain colored",
+    //   "devicon-sass-original",
+    //   "devicon-bootstrap-plain",
+    //   "devicon-javascript-plain",
+    //   "devicon-ruby-plain",
+    //   "devicon-rails-plain",
+    //   "devicon-postgresql-plain",
+    // ],
   },
 ];
