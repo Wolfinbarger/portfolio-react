@@ -1,17 +1,12 @@
 @import "../../varaibles";
 
 .skills {
-  display: flex;
-  flex-direction: column;
-  width: 33%;
-  flex-wrap: wrap;
-  overflow: hidden;
-  align-items: center;
-  box-shadow: 0 0 2px gray;
-  border-radius: 8px;
-  padding: 8px;
-  margin-top: 150px;
 
+  box-shadow: 0 0 4px gray;
+  border-radius: 8px;
+  // padding: 8px;
+  margin-top: 150px;
+  scroll-margin-top: 80px;
 }
 
 .skills > h2 {
