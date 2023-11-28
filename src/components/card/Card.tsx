@@ -20,7 +20,7 @@ export default function Card({ item }: Work) {
   return (
     <div className="card">
       <h3>{item.title}</h3>
-      <img src={`src/assets/images/${item.image}`} alt="image" />
+      <img src={`./${item.image}`} alt="image" />
       <div className="card__content">
         <p>{item.description}</p>
         <div className="tags" key={item.id}>
