@@ -18,19 +18,19 @@ interface Work {
 
 export default function Card({ item }: Work) {
   return (
-    <div className="card">
+    <div className='card'>
       <h3>{item.title}</h3>
-      <img src={`./${item.image}`} alt="image" />
-      <div className="card__content">
+      <img src={`./${item.image}`} alt='image' />
+      <div className='card__content'>
         <p>{item.description}</p>
-        <div className="tags" key={item.id}>
+        <div className='tags' key={item.id}>
           {/* {console.log(work.value.tags)}
           {work.value.tags.forEach((tag: IconName) => {
             console.log(tag);
           })} */}
         </div>
-        <div className="links">
-          <a href={item.url} className="link">
+        <div className='links'>
+          <a href={item.url} className='link'>
             <FontAwesomeIcon
               icon={faGlobe}
               style={{ color: "#ffffff" }}
@@ -39,7 +39,7 @@ export default function Card({ item }: Work) {
             &nbsp;Demo
           </a>
           <br />
-          <a href="{work.value.source}" className="link">
+          <a href={item.source} className='link'>
             <FontAwesomeIcon icon={faGithub} style={{ color: "#ffffff" }} />
             &nbsp;Source
           </a>
